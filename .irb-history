@@ -1,0 +1,17 @@
+@u = User.find_by_Id(1)
+@u = User.find_by_id(1)
+out
+stop
+rails
+rails serve
+@testUser = find.user_by_id(1)
+meetup.find_by(id:3)
+meetups.find_by(id:3)
+Meetups.find_by(id: ‘3’)
+clear
+meetup_id("3")
+meetup_id: 3
+meetup_id "3"
+meetup_id: "3"
+meetup id:"3"
+exit

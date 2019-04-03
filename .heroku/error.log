@@ -1,0 +1,25 @@
+2016/02/17 21:27:20 heroku-cli: Adding dependencies...
+2016/02/17 21:27:24  done
+2016/02/17 21:27:24 heroku-cli: Installing core plugins...
+2016/02/17 21:27:52  done
+2016/02/17 21:27:52 Email: 
+2016/02/17 21:30:48 Error: Expected response to be successful, got 422
+    at Request.handleFailure (/home/ubuntu/.heroku/node_modules/heroku-client/lib/request.js:284:9)
+    at /home/ubuntu/.heroku/node_modules/heroku-client/lib/request.js:163:14
+    at IncomingMessage.<anonymous> (/home/ubuntu/.heroku/node_modules/heroku-client/lib/request.js:392:5)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+    at endReadableNT (_stream_readable.js:905:12)
+    at nextTickCallbackWith2Args (node.js:474:9)
+    at process._tickCallback (node.js:388:17)
+2016/02/17 21:30:48 {"id":"invalid_params","message":"Name is already taken"}
+2016/02/17 21:30:56 Error: Expected response to be successful, got 422
+    at Request.handleFailure (/home/ubuntu/.heroku/node_modules/heroku-client/lib/request.js:284:9)
+    at /home/ubuntu/.heroku/node_modules/heroku-client/lib/request.js:163:14
+    at IncomingMessage.<anonymous> (/home/ubuntu/.heroku/node_modules/heroku-client/lib/request.js:392:5)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+    at endReadableNT (_stream_readable.js:905:12)
+    at nextTickCallbackWith2Args (node.js:474:9)
+    at process._tickCallback (node.js:388:17)
+2016/02/17 21:30:56 {"id":"invalid_params","message":"Name must start with a letter and can only contain lowercase letters, numbers, and dashes."}
